@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Retired Professors Society Pokhara</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* About Page Specific Styles */
+        .about-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            color: #333;
+            line-height: 1.7;
+        }
+        
+        .about-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .about-header h1 {
+            color: #003366;
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+        
+        .about-header p {
+            font-size: 1.2em;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #555;
+        }
+        
+        .narrative-section {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            margin-bottom: 40px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+        }
+        
+        .narrative-section h2 {
+            color: #003366;
+            margin-top: 0;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e0eafc;
+        }
+        
+        .narrative-section p {
+            margin-bottom: 20px;
+            font-size: 1.1em;
+        }
+        
+        .board-section {
+            background-color: #f8f9fa;
+            padding: 40px;
+            border-radius: 8px;
+            margin-bottom: 40px;
+        }
+        
+        .board-section h2 {
+            color: #003366;
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 30px;
+        }
+        
+        .board-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .board-member {
+            background-color: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .board-member:hover {
+            transform: translateY(-5px);
+        }
+        
+        .member-photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 15px;
+            border: 3px solid #003366;
+        }
+        
+        .member-name {
+            color: #003366;
+            font-size: 1.3em;
+            margin: 10px 0 5px;
+        }
+        
+        .member-position {
+            color: #e74c3c;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .member-bio {
+            font-size: 0.95em;
+            color: #555;
+        }
+        
+        .highlight-box {
+            background-color: #e0eafc;
+            padding: 25px;
+            border-radius: 8px;
+            margin: 30px 0;
+            border-left: 4px solid #003366;
+        }
+        
+        .highlight-box h3 {
+            color: #003366;
+            margin-top: 0;
+        }
+        
+        @media (max-width: 768px) {
+            .about-header h1 {
+                font-size: 2em;
+            }
+            
+            .narrative-section, .board-section {
+                padding: 25px;
+            }
+            
+            .board-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<script src="script.js"></script>
+
+    <div data-include="header.html"></div>
+
+    <div class="about-container">
+        <div class="about-header">
+            <h1>Our Story & Leadership</h1>
+            <p>The Retired Professors Society Pokhara brings together distinguished academics to continue their intellectual contributions and foster community engagement</p>
+        </div>
+
+        <section class="narrative-section">
+            <h2>Our History and Mission</h2>
+            
+            <p>The Retired Professors Society Pokhara was formally established in February 2023 (Fagun 2079 BS) as a common platform for retired academics residing in and around Pokhara. The society builds upon years of discussion among retired faculty members from various institutions who recognized the need for an organized body to harness their collective wisdom and experience.</p>
+            
+            <p>The concept had been proposed much earlier by pioneering educators like Mr. George John, the founding principal of Prithvi Narayan Campus, who first suggested the idea to former Campus Chief Mr. Ganesh Bahadur Gurung. Other advocates included Mr. Balgopal Amatya from the English department and Associate Professor Dhruba K.C., all of whom saw the potential for retired professors to remain engaged in intellectual and social contributions.</p>
+            
+            <div class="highlight-box">
+                <h3>Our Founding Moment</h3>
+                <p>The society took concrete shape during a picnic organized by Prithvi Narayan Campus professors on February 4, 2023, where senior professors including Raghunath Adhikari, Prof. Dr. Dil Bahadur Kshetri, and Gehendra Shwar Koirala emphasized immediate action. This led to the first formal meeting on February 20, 2023 at Lake City College, where an ad hoc committee was formed with Mr. Krishna Prasad Poudel as coordinator.</p>
+            </div>
+            
+            <p>From these modest beginnings, the society has grown to include over 110 members from diverse academic backgrounds including Tribhuvan University, Pokhara University, Nepal Sanskrit University, and various specialized campuses. Our membership represents a wealth of knowledge across disciplines from political science to engineering, forestry to nursing.</p>
+            
+            <p>The society's activities have included knowledge-sharing workshops, community outreach programs, and intergenerational dialogues. We've also worked to establish our organizational structure and draft our constitution with the assistance of legal expert Mr. Krishna Bahadur Gurung.</p>
+            
+            
+            <h3>Our Vision for the Future</h3>
+            <p>As we look ahead, we aim to strengthen our institutional framework while maintaining our focus on substantive activities. With ongoing retirements from academic institutions across the region, we anticipate continued growth in both membership and impact.</p>
+            
+            <p>Our objectives remain clear: to enhance the welfare of our members, contribute to public discourse, promote democratic values through academic expertise, and serve as an independent intellectual forum. We believe that retirement marks not an end to contribution, but a new chapter of service with the wisdom of experience.</p>
+        </section>
+
+        <section class="board-section">
+            <h2>Executive Committee <br>
+            [ad hoc]</h2>
+            
+            <div class="board-grid">
+                <div class="board-member">
+                    <img src="KrishnaPrasadPoudel.png" alt="Mr. Krishna Prasad Poudel" class="member-photo">
+                    <h3 class="member-name">Mr. Krishna Prasad Poudel</h3>
+                    <div class="member-position">President</div>
+                    <p class="member-bio">Former professor at Prithvi Narayan Campus and founding coordinator of the society. Spearheaded the organizational efforts since 2021.</p>
+                </div>
+                
+                <div class="board-member">
+                    <img src="PadmaSharanRegmi.png" alt="Prof. Padma Sharan Regmi" class="member-photo">
+                    <h3 class="member-name">Prof. Padma Sharan Regmi</h3>
+                    <div class="member-position">Vice President</div>
+                    <p class="member-bio">Distinguished academic with decades of teaching experience. Key figure in establishing the society's governance structure.</p>
+                </div>
+                
+                <div class="board-member">
+                    <img src="GyanBahadurKarki.png" alt="Prof. Dr. Gyan Bahadur Karki" class="member-photo">
+                    <h3 class="member-name">Prof. Dr. Gyan Bahadur Karki</h3>
+                    <div class="member-position">Secretary</div>
+                    <p class="member-bio">Former department head and active participant in the society's knowledge-sharing initiatives.</p>
+                </div>
+                
+                <div class="board-member">
+                    <img src="ChandraKantaRegmi.png" alt="Mr. Chandrakanta Regmi" class="member-photo">
+                    <h3 class="member-name">Mr. Chandrakanta Regmi</h3>
+                    <div class="member-position">Treasurer</div>
+                    <p class="member-bio">Manages the society's financial affairs with decades of administrative experience.</p>
+                </div>
+              
+                
+           
+            </div>
+        </section>
+
+        <section class="narrative-section">
+            <h2>Our Organizational Structure</h2>
+            <p>The Retired Professors Society Pokhara operates with a clear governance framework designed to ensure effective leadership while maintaining our core values of collaboration and intellectual freedom.</p>
+            
+            <h3>Membership Categories</h3>
+            <p>We offer three types of membership to accommodate different levels of engagement:</p>
+            <ul>
+                <li><strong>General Members:</strong> Open to all retired professors from recognized universities residing in Gandaki Province (Rs. 1,000 entrance + Rs. 1,000 annual fee)</li>
+                <li><strong>Life Members:</strong> For those wishing to make a one-time commitment (Rs. 1,000 entrance + Rs. 5,000 lifetime fee)</li>
+                <li><strong>Honorary Members:</strong> Distinguished scholars nominated by the executive committee in recognition of exceptional contributions</li>
+            </ul>
+            
+            <div class="highlight-box">
+                <h3>Our Guiding Principles</h3>
+                <p>The society is committed to being a non-profit, humanitarian organization dedicated to:</p>
+                <ul>
+                    <li>Promoting mutual welfare among retired academics</li>
+                    <li>Facilitating intellectual exchange across disciplines</li>
+                    <li>Contributing to societal development through academic expertise</li>
+                    <li>Maintaining an independent, non-partisan stance on issues</li>
+                </ul>
+            </div>
+            
+            <p>Our headquarters is located in Ward No. 1 of Pokhara Metropolitan City, serving as both an administrative center and gathering space for members. The society's emblem features a hexagonal design with a book symbolizing our academic foundation, accompanied by our name and establishment year (2081).</p>
+            
+            <p>As we continue to grow, we remain open to collaborations with academic institutions, civil society organizations, and government bodies that align with our mission of leveraging retired professors' expertise for the greater good.</p>
+        </section>
+    </div>
+
+    <div data-include="footer.html"></div>
+
+    <script src="include.js"></script>
+</body>
+</html>
