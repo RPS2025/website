@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Home Page -->
+  <url>
+    <loc>https://retiredprofessors.org.np/index.html</loc>
+    <lastmod>2025-05-28</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- About Page -->
+  <url>
+    <loc>https://retiredprofessors.org.np/about.html</loc>
+    <lastmod>2025-05-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Members Page -->
+  <url>
+    <loc>https://retiredprofessors.org.np/members.html</loc>
+    <lastmod>2025-05-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- News & Events -->
+  <url>
+    <loc>https://retiredprofessors.org.np/events.html</loc>
+    <lastmod>2025-05-28</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://retiredprofessors.org.np/contact.html</loc>
+    <lastmod>2025-05-28</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+
+</urlset>
